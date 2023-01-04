@@ -11,4 +11,8 @@ docker-compose -p reportportal up -d --force-recreate
 3. Открыть страницу `http://localhost:8080/ui/` с логином: `superadmin`, и паролем: `erebus`
 4. Открыть `http://localhost:8080/ui/#user-profile` и скопировать CONFIGURATION EXAMPLES в файл [reportportal.properties](../.src/test/resources/reportportal.properties)
 ![](Screenshot1.png)
-5. запустить тесты и просмотреть отчёты на странице `http://localhost:8080/ui/#superadmin_personal/launches/all`
+5. запустить тесты командой
+```
+./gradlew clean test
+```
+7. Просмотреть отчёты на странице `http://localhost:8080/ui/#superadmin_personal/launches/all`
