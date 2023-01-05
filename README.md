@@ -16,3 +16,6 @@ docker-compose -p reportportal up -d --force-recreate
 ./gradlew clean test
 ```
 7. Просмотреть отчёты на странице `http://localhost:8080/ui/#superadmin_personal/launches/all`
+
+
+## [Репорты по обнаруженным дефtктам](https://github.com/mzrivan/Patterns-task1/issues)
